@@ -1,15 +1,13 @@
-템플릿 문제 지문
+# a + b + c
 
-~~~
-aaa
-aaa
-aaa
-~~~
+given three integer a, b, c
 
-| a | b | c |
-| - | - | - |
-| A | B | C |
-| 1 | 2 | 3 |
-| c | b | a |
+print a + b + c
 
-대충 글
+a is integer
+b is integer
+c is integer
+
+0 ≤ a ≤ 10
+0 ≤ b ≤ 10
+0 ≤ c ≤ 10
