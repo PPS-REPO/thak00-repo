@@ -1,0 +1,40 @@
+{
+    "problem_type": "stdio",
+    "checker": "tcmp.cc",
+    "checker_language": "cpp11",
+    "validator": "validator.py",
+    "validator_language": "py3",
+    "limits": {
+        "time": 10000,
+        "memory": 1024,
+        "factor": {
+            "cpp": 0,
+            "cpp11": 1000,
+            "py3": 20000
+        }
+    },
+    "solutions": {
+        "AC": ["solution.cc", "solution.py"],
+        "AC/WA": ["solution_heuristic.cc"],
+        "WA": ["solution_wa.cc"],
+        "TLE/MLE": ["solution_tle.cc"],
+        "TLE": [],
+        "MLE": ["solution_mle.cc"],
+        "FAIL": ["solution_runtime_error.cc"]
+    },
+    "generators": {
+        "random": "generator.py",
+        "manual": "generator_manual.py"
+    },
+    "genscript": [
+        "manual 1",
+        "manual 2",
+        "random 1 10",
+        "random 1 10 random_seed",
+        "random 1 10 random_seed ___"
+    ],
+    "versions": {
+        "config": 1,
+        "repository": 1
+    }
+}
